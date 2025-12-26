@@ -1,0 +1,6 @@
+{
+	"rewrites": [
+		{ "source": "/food1/(.*)", "destination": "/food1/$1" },
+		{ "source": "/food2/(.*)", "destination": "/food2/$1" }
+	]
+}
