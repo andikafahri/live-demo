@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"cleanUrls": true,
+	// "cleanUrls": true,
 	"trailingSlash": true,
 	"rewrites": [
 		{ "source": "/Food1/(.*)", "destination": "/Food1/$1" },
