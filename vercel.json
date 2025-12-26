@@ -1,4 +1,5 @@
 {
+	"version": 2,
 	"rewrites": [
 		{ "source": "/Food1/(.*)", "destination": "/Food1/$1" },
 		{ "source": "/Food2/(.*)", "destination": "/Food2/$1" }
