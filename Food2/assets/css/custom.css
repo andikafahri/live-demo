@@ -174,8 +174,104 @@ footer {
 
 
 /* Banner */
+.c-hero-container {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+
+.c-hero-left {
+	position: absolute;
+	width: 40%;
+	height: fit-content;
+}
+
+.c-hero-right {
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: 5%;
+	width: 45%;
+	height: fit-content;
+}
+
+.c-welcome {
+	width: 100%;
+	position: absolute;
+	top: 90px;
+	padding: 150px 50px 0 50px;
+}
+
+.c-welcome-title {
+	font-size: 3.7rem;
+}
+
+.c-welcome-slogan {
+/* 		font-size: 1rem; */
+}
+
 .c-btn-banner {
 	padding: 17px 25px;
+}
+
+@media (max-width: 800px) {
+	.c-hero-container {
+		overflow: hidden;
+	}
+
+	.c-hero-left {
+		height: 50%;
+		width: fit-content;
+		left: -20px;
+	}
+
+	.c-hero-right {
+		top: 50%;
+		transform: translateY(-50%);
+		height: 70%;
+		width: fit-content;
+	}
+
+	.c-welcome {
+		top: 40%;
+		transform: translateY(-40%);
+		padding: 0 25px;
+	}
+
+	.c-welcome-title {
+		font-size: 3rem;
+		text-shadow: 0 3px 5px #00000085;
+	}
+
+	.c-welcome-slogan {
+		font-size: 1rem;
+		text-shadow: 0 3px 5px #00000085;
+	}
+}
+
+@media (max-width:600px) {
+	.c-hero-left {
+		height: 50%;
+		width: fit-content;
+		left: -150px;
+	}
+
+	.c-hero-right {
+		right: -100px;
+		bottom: -50px;
+		top: auto;
+		transform: none;
+		height: 70%;
+		width: fit-content;
+	}
+
+	.c-welcome {
+		bottom: 55%;
+		top: auto;
+		transform: none;
+	}
 }
 
 
@@ -336,6 +432,7 @@ footer {
 
 nav {
 	position: absolute;
+	z-index: 20;
 	height: 90px;
 	width: 100%;
 	padding: 25px 30px;
