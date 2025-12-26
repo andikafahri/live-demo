@@ -1,6 +1,6 @@
 {
 	"rewrites": [
-		{ "source": "/Food1/(.*)", "destination": "/food1/$1" },
-		{ "source": "/Food2/(.*)", "destination": "/food2/$1" }
+		{ "source": "/Food1/(.*)", "destination": "/Food1/$1" },
+		{ "source": "/Food2/(.*)", "destination": "/Food2/$1" }
 	]
 }
