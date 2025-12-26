@@ -1,0 +1,63 @@
+section {
+	padding: 25px;
+}
+
+.m-row {
+	max-width: 900px;
+	margin: auto;
+}
+
+.m-item {
+	display: flex;
+	padding: 5px 10px;
+}
+
+.m-frame-img {
+	width: 70px;
+	padding: 5px;
+/* 	text-align: center; */
+}
+
+.m-frame-img img {
+	width: 100%;
+}
+
+.m-rotate {
+	transform: rotate(-25deg);
+}
+
+.m-info {
+	width: calc(100% - 70px);
+	margin-left: 7px;
+	align-content: center;
+	color: white;
+}
+
+.m-info-top {
+	margin-bottom: 10px;
+	display: flex;
+	gap: 3px;
+	width: 100%;
+	font-family: "Coiny", system-ui;
+}
+
+.m-info-top h3 {
+	margin: 0;
+	font-size: 1.3rem;
+}
+
+.m-border {
+	border-bottom: 1px solid white;
+	flex: 1;
+}
+
+.m-price {
+
+}
+
+.m-desc {
+	font-family: 'Kalam';
+	font-weight: 300;
+	font-size: 1rem;
+	color: #e3e3e3;
+}

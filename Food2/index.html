@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<title>Website Kuliner</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS (versi 5 terbaru) -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- CDN FontAwesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+	<!-- CDN Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Coiny&family=Kalam:wght@300;400;700&family=Knewave&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+	<!-- Custom -->
+	<link href="assets/css/custom.css" rel="stylesheet">
+</head>
+<body>
+	<div class="c-bg-primary">
+
+<!-- ===== HEADER ===== -->
+<!-- <nav class="navbar navbar-expand-lg c-bg-primary py-3">
+	<div class="container" style="max-width: 90%">
+		<div class="row" style="width: 100%">
+			<div class="col-lg-4 col-md-4">
+				<ul class="c-ul-navbar">
+					<li><a href="">Home</a></li>
+					<li><a href="">Menu</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-4 col-md-4"></div>
+			<div class="col-lg-4 col-md-4">
+				<ul class="c-ul-navbar">
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav> -->
+
+<!-- <nav id="navMenu">
+	<div class="c-left">
+		<ul class="c-ul-navbar">
+			<li><a href="">Home</a></li>
+			<li><a href="">Menu</a></li>
+		</ul>
+	</div>
+	<div class="c-mid">
+		<a href="" class="c-logo text-white text-center">NDK Cafe</a>
+	</div>
+	<div class="c-right">
+		<ul class="c-ul-navbar">
+			<li><a href="">About</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</div>
+	<div class="c-menu-btn" id="menuBtn">&#9776;</div>
+</nav> -->
+
+<div id="header"></div>
+
+
+<!-- ===== BANNER ===== -->
+<section style="padding-top: 150px;">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-lg-6 text-white text-start c-ff3">
+				<h1 class="fw-bold" style="font-size: 3.5rem">NDK Cafe</h1>
+				<p class="lead">Pelopor es krim sejak 2001</p>
+				<a href="#" class="btn fw-bold c-btn-primary c-btn-banner"><i class="fab fa-whatsapp" style="font-size: 1rem; margin-right: 5px"></i>Hubungi Kami</a>
+				<a href="menu.html" class="btn fw-bold ms-2 c-btn-second c-btn-banner">Menu</a>
+			</div>
+			<div class="col-lg-6">
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ===== LIST MENU FAVORIT ===== -->
+<section class="py-5">
+	<div class="container">
+		<h2 class="text-center mb-5 text-white c-ff-zain-black fs-1">Pilih Rasa Favoritmu</h2>
+
+		<div class="c-carousel-container">
+			<button class="c-carousel-btn c-prev">&#10094;</button>
+			<div class="c-carousel-frame">
+				<div class="c-carousel-track" id="listTaste"></div>
+			</div>
+			<button class="c-carousel-btn c-next">&#10095;</button>
+		</div>
+
+		<!-- <div class="row g-4">
+			<div class="col-md-4 col-lg-3">
+				<div class="card shadow-sm c-card">
+					<img class="mb-3" src="assets/img/strawbery-gem.webp">
+					<div class="text-center">
+						<h5 class="card-title text-white c-ff3">Strawbery Gem</h5>
+						<p class="card-text c-ff-kalam-regular c-desc">Fruity and fresh</p>
+						<div class="c-price-area">
+							<h5 class="c-price c-ff-zain-black">3K</h5>
+							<h5 class="c-desc c-ff-zain-black"> / </h5>
+							<h5 class="c-desc c-ff-zain-black">ball</h5>
+						</div>
+						<a href="#" class="btn c-btn-primary c-ff w-100" style="color: #39396e">Pesan</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-3">
+				<div class="card shadow-sm c-card">
+					<img class="mb-3" src="assets/img/strawbery-gem.webp">
+					<div class="text-center">
+						<h5 class="card-title text-white c-ff3">Strawbery Gem</h5>
+						<p class="card-text c-ff-kalam-regular c-desc">Fruity and fresh</p>
+						<div class="c-price-area">
+							<h5 class="c-price c-ff-zain-black">3K</h5>
+							<h5 class="c-desc c-ff-zain-black"> / </h5>
+							<h5 class="c-desc c-ff-zain-black">ball</h5>
+						</div>
+						<a href="#" class="btn c-btn-primary c-ff w-100" style="color: #39396e">Pesan</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-3">
+				<div class="card shadow-sm c-card">
+					<img class="mb-3" src="assets/img/strawbery-gem.webp">
+					<div class="text-center">
+						<h5 class="card-title text-white c-ff3">Strawbery Gem</h5>
+						<p class="card-text c-ff-kalam-regular c-desc">Fruity and fresh</p>
+						<div class="c-price-area">
+							<h5 class="c-price c-ff-zain-black">3K</h5>
+							<h5 class="c-desc c-ff-zain-black"> / </h5>
+							<h5 class="c-desc c-ff-zain-black">ball</h5>
+						</div>
+						<a href="#" class="btn c-btn-primary c-ff w-100" style="color: #39396e">Pesan</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-lg-3">
+				<div class="card shadow-sm c-card">
+					<img class="mb-3" src="assets/img/strawbery-gem.webp">
+					<div class="text-center">
+						<h5 class="card-title text-white c-ff3">Strawbery Gem</h5>
+						<p class="card-text c-ff-kalam-regular c-desc">Fruity and fresh</p>
+						<div class="c-price-area">
+							<h5 class="c-price c-ff-zain-black">3K</h5>
+							<h5 class="c-desc c-ff-zain-black"> / </h5>
+							<h5 class="c-desc c-ff-zain-black">ball</h5>
+						</div>
+						<a href="#" class="btn c-btn-primary c-ff w-100" style="color: #39396e">Pesan</a>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="text-center mt-4">
+			<a href="menu.html" class="btn fw-bold c-btn-primary c-btn-show-more">Show More</a>
+		</div>
+	</div>
+</section>
+
+<!-- Ingredients -->
+<section>
+	<div class="container mb-5">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 text-center mb-5 mb-lg-0">
+				<img class="c-ingredient-img" src="assets/img/ingredients.webp">
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<h2 class="c-ff-zain-black text-white fs-1">100% Dari Bahan Alami</h2>
+				<h3 class="c-ff-zain-light text-white" style="font-size: 1.1rem">Dibuat dengan bahan alami pilihan untuk memberikan kualitas terbaik</h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- New taste -->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<h2 class="c-ff-zain-black text-white" style="font-size: 1.8rem">Kini Hadir Varian Baru</h2>
+				<h3 class="text-white c-ff3 fs-1">Waffle Snow Cream</h3>
+				<h3 class="c-ff-zain-light text-white" style="font-size: 1.1rem">Berbungkus waffle dengan isian es krim dan marshmellow</h3>
+			</div>
+			<div class="col-lg-6 col-md-6 text-center mb-5 mb-lg-0">
+				<img class="c-ingredient-img" src="assets/img/new-variant.webp">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Experience -->
+<section>
+	<div class="container">
+		<div class="row" style="margin: 150px 0">
+			<div class="col-6 col-lg-3 col-md-3 mb-3 mb-md-0 text-center" style="justify-items: center">
+				<div class="c-frame-icon">
+					<i class="fas fa-certificate text-white"></i>
+				</div>
+				<h2 class="c-ff-zain-black text-white fs-1">20+</h2>
+				<h3 class="c-ff-zain-light text-white" style="font-size: 1.2rem">Tahun Berpengalaman</h3>
+			</div>
+			<div class="col-6 col-lg-3 col-md-3 mb-3 mb-md-0 text-center" style="justify-items: center">
+				<div class="c-frame-icon">
+					<i class="fas fa-users text-white"></i>
+				</div>
+				<h2 class="c-ff-zain-black text-white fs-1">50+</h2>
+				<h3 class="c-ff-zain-light text-white" style="font-size: 1.2rem">Tim Profesional</h3>
+			</div>
+			<div class="col-6 col-lg-3 col-md-3 mb-3 mb-md-0 text-center" style="justify-items: center">
+				<div class="c-frame-icon">
+					<i class="fas fa-store text-white"></i>
+				</div>
+				<h2 class="c-ff-zain-black text-white fs-1">25+</h2>
+				<h3 class="c-ff-zain-light text-white" style="font-size: 1.2rem">Outlet</h3>
+			</div>
+			<div class="col-6 col-lg-3 col-md-3 mb-3 mb-md-0 text-center" style="justify-items: center">
+				<div class="c-frame-icon">
+					<i class="fas fa-ice-cream text-white"></i>
+				</div>
+				<h2 class="c-ff-zain-black text-white fs-1">25+</h2>
+				<h3 class="c-ff-zain-light text-white" style="font-size: 1.2rem">Varian Populer</h3>
+			</div>
+			<div class="text-center mt-4">
+				<a href="about.html" class="btn fw-bold c-btn-primary c-btn-show-more">About Us</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<div id="footer"></div>
+</div>
+
+<!-- CDN -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom -->
+<script src="assets/js/script.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		listTaste()
+
+		function listTaste(){
+			var html = ''
+			var item = [
+				{name: 'Strawbery Gem', desc: 'Fruity and fresh', price: '3K', img: 'strawbery-gem.webp'},
+				{name: 'Choco & Hazelnut', desc: 'Rich sweet taste', price: '3K', img: 'choco-hazelnut.webp'},
+				{name: 'Blue Paradise', desc: 'Sour and fruity', price: '3K', img: 'blue-paradise.webp'},
+				{name: 'Mango Dreams', desc: 'Classic tropic taste', price: '3K', img: 'mango-dreams.webp'},
+				{name: 'Pistachio Heaven', desc: 'Creamy nutty flavour', price: '3K', img: 'pistachio-heaven.webp'},
+			]
+
+			for(var i=0; i<item.length; i++){
+				html += '<div class="col-6 col-md-4 col-lg-3 c-card-area">'+
+				'<div class="card shadow-sm c-card">'+
+				'<img class="mb-3" src="assets/img/'+item[i].img+'">'+
+				'<div class="c-info-area text-center">'+
+				'<h5 class="c-name-menu text-white c-ff3">'+item[i].name+'</h5>'+
+				'<p class="card-text c-ff-kalam-regular c-desc">'+item[i].desc+'</p>'+
+				'<div class="c-price-area">'+
+				'<h5 class="c-price c-ff-zain-black">'+item[i].price+'</h5>'+
+				'<h5 class="c-desc c-ff-zain-black"> / </h5>'+
+				'<h5 class="c-desc c-ff-zain-black">ball</h5>'+
+				'</div>'+
+				'<a href="#" class="btn c-btn-primary c-ff mt-1 w-100" style="color: #39396e">Pesan</a>'+
+				'</div>'+
+				'</div>'+
+				'</div>';
+			}
+
+			$('#listTaste').html(html)
+		}
+
+		// Carousel
+		const track = document.querySelector('.c-carousel-track');
+		const cards = document.querySelectorAll('.c-card-area');
+		const prevBtn = document.querySelector('.c-prev');
+		const nextBtn = document.querySelector('.c-next');
+		const viewport = document.querySelector('.c-carousel-frame');
+
+		let index = 0;
+
+		function getVisibleCards() {
+			const cardWidth = cards[0].offsetWidth;
+			const viewportWidth = viewport.offsetWidth;
+			// return Math.floor(viewportWidth / cardWidth);
+			return Math.ceil(viewportWidth / cardWidth);
+		}
+
+		function updateCarousel() {
+			const cardWidth = cards[0].offsetWidth;
+			track.style.transform = `translateX(-${index * cardWidth}px)`;
+		}
+
+		nextBtn.addEventListener('click', () => {
+			const visibleCards = getVisibleCards();
+			if (index < cards.length - visibleCards) {
+				index++;
+				updateCarousel();
+			}
+		});
+
+		prevBtn.addEventListener('click', () => {
+			if (index > 0) {
+				index--;
+				updateCarousel();
+			}
+		});
+
+		window.addEventListener('resize', () => {
+			index = Math.min(index, cards.length - getVisibleCards());
+			updateCarousel
+		});
+	})
+</script>
+
+</body>
+</html>

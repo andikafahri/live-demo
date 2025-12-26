@@ -1,0 +1,573 @@
+:root {
+	--btn-primary: gold;
+/* 	--btn-second: #b9bcfd; */
+--btn-second: #00000055;
+/* --bg-primary: #5555a5; */
+--bg-primary: #5252b1;
+}
+
+body {
+/* 	background-color: var(--bg-primary); */
+}
+
+body.no-scroll {
+	overflow: hidden;
+
+/* 	Mobile */
+/* position: fixed;
+	width: 100%; */
+}
+
+a {
+	text-decoration: none;
+	line-height: normal !important;
+}
+
+button:hover {
+	background-color: transparent;
+}
+
+footer {
+	background-color: #17171c;
+}
+
+/* Font */
+.c-ff {
+	font-family: 'Roboto';
+}
+
+.c-ff2 {
+	font-family: 'Knewave';
+}
+
+.c-ff3 {
+	font-family: "Coiny", system-ui;
+}
+
+.c-ff4 {
+	font-family: "Cherry Bomb One", system-ui;
+}
+
+.c-ff-kalam-light {
+	font-family: "Kalam", cursive;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.c-ff-kalam-regular {
+	font-family: "Kalam", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.c-ff-kalam-bold {
+	font-family: "Kalam", cursive;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.c-ff-zain-extralight {
+	font-family: "Zain", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.c-ff-zain-light {
+	font-family: "Zain", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.c-ff-zain-regular {
+	font-family: "Zain", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.c-ff-zain-bold {
+	font-family: "Zain", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.c-ff-zain-extrabold {
+	font-family: "Zain", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.c-ff-zain-black {
+	font-family: "Zain", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.c-ff-zain-light-italic {
+	font-family: "Zain", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.c-ff-zain-regular-italic {
+	font-family: "Zain", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+/* Global */
+.c-text-primary {
+	color: gold !important;
+}
+
+.c-btn-primary {
+	background-color: var(--btn-primary);
+	border-radius: 100px;
+	border: none;
+	font-size: .9rem;
+	font-family: 'Zain' !important;
+	transition: .3s;
+}
+
+.c-btn-primary:hover {
+	background-color: gold;
+	box-shadow: 0 5px 20px 5px #00000030;
+	transform: translateY(-5px);
+	color:  black;
+}
+
+.c-btn-second {
+	background-color: var(--btn-second);
+	border-radius: 100px;
+	border: none;
+	color: white;
+	font-size: .9rem;
+	font-family: 'Zain' !important;
+	transition: .5s;
+}
+
+.c-btn-second:hover {
+	background-color: var(--btn-second);
+	box-shadow: 0 5px 20px 5px #00000030;
+	transform: translateY(-5px);
+	color:  white;
+}
+
+.c-frame-img img {
+	width: 100%;
+}
+
+.c-bg-primary {
+	background-color: var(--bg-primary);
+}
+
+.c-bg-second {
+	background-color: red;
+}
+
+.c-title {
+	font-family: "Zain", sans-serif;
+	font-weight: 900;
+	color: white;
+	font-size: 2.3rem;
+}
+
+
+/* Banner */
+.c-btn-banner {
+	padding: 17px 25px;
+}
+
+
+/* Favorite menu */
+.c-card {
+	background-color: #00000055;
+	height: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+	border: none;
+	font-size: .9rem;
+}
+
+.c-card img {
+	width: 90%;
+	align-self: center;
+}
+
+.c-info-area {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.c-name-menu {
+	font-size: 1.1rem;
+}
+
+.c-desc {
+	color: #adadad;
+}
+
+.c-price-area {
+	flex: 1;
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.c-price {
+	color: gold;
+}
+
+.c-price-area h5 {
+	font-size: 1.1rem;	
+}
+
+
+/* Header */
+/* nav {
+	padding: 25px 30px;
+	display: flex;
+	align-items: center;
+}
+
+.c-left {
+	flex: 1;
+}
+
+.c-mid {
+	width: max-content;
+	align-content: center;
+}
+
+.c-right {
+	flex: 1;
+}
+
+.c-logo {
+	margin: 0;
+	font-family: 'Coiny';
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+.c-ul-navbar {
+	list-style: none;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.c-ul-navbar li a {
+	text-decoration: none;
+	color:  white;
+	font-family: 'Roboto';
+	letter-spacing: 1px;
+}
+
+.c-menu-btn {
+	display: none;
+	font-size: 26px;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	nav {
+		background-color: red;
+		flex-wrap: wrap;
+		transition: 1s;
+	}
+
+	.c-mid {
+		order: 1;
+	}
+
+	.c-menu-btn {
+		order: 2;
+		display: block;
+		margin-left: auto;
+		color: white;
+	}
+
+	.c-left, .c-right {
+		flex: none;
+		width: 100%;
+		height: 0;
+		opacity: 0;
+		margin: 0;
+		transition: 1s;
+	}
+
+	.c-left {
+		order: 3;
+	}
+
+	.c-right {
+		order: 4;		
+	}
+
+	.c-ul-navbar {
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	nav.active .c-left,
+	nav.active .c-right {
+		opacity: 1;
+		height: 300px;
+		transition: 1s;
+	}
+
+	nav.active .c-left {
+		margin-top: 30px;
+		transition: 1s;
+	}
+
+	nav.active .c-right {
+		margin-top: 15px;
+		transition: 1s;
+	}
+} */
+
+nav {
+	position: absolute;
+	height: 90px;
+	width: 100%;
+	padding: 25px 30px;
+	display: flex;
+	align-items: center;
+	transition: .5s;
+}
+
+.c-logo {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 30;
+	font-family: 'Coiny';
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+.c-menu {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 20;
+	height: 100%;
+}
+
+.c-ul-navbar {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.c-ul-navbar.right {
+	right: 0;
+}
+
+.c-ul-navbar li a {
+	text-decoration: none;
+	color:  white;
+	font-family: 'Roboto';
+	letter-spacing: 1px;
+	transition: .3s;
+}
+
+.c-ul-navbar li a:hover {
+	font-weight: 700;
+}
+
+.c-menu-btn {
+	position: absolute;
+	right: 25px;
+	display: none;
+	font-size: 26px;
+	color: white;
+	cursor: pointer;
+}
+
+@media (max-width: 800px) {
+	.c-logo {
+		left: 25px;
+		transform: none;
+	}
+
+	.c-menu-btn {
+		display: block;
+	}
+
+	.c-menu {
+		background-color: var(--bg-primary);
+		top: 90px;
+		height: 0;
+		opacity: 0;
+		transition: .5s;
+		pointer-events: none;
+	}
+
+	nav.active {
+		background-color: var(--bg-primary);
+	}
+
+	.c-menu.active {
+		height: calc(100vh - 90px);
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	.c-ul-navbar {
+		position: relative;
+		width: 100%;
+		height: max-content;
+		flex-direction: column;
+		gap: 25px;
+	}
+
+	.c-ul-navbar.left {
+		margin-top: 50px;
+	}
+
+	.c-ul-navbar.right {
+		margin-top: 25px;
+	}
+}
+
+
+/* Card carousel */
+.c-carousel-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.c-carousel-frame {
+	margin: 0 15px;
+	overflow: hidden;
+}
+
+.c-carousel-track {
+	display: flex;
+	transition: transform 0.4s ease;
+}
+
+.c-card-area {
+	padding: 0 10px;
+}
+
+.c-card-inner {
+	background: white;
+	border-radius: 10px;
+	padding: 20px;
+	height: 150px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
+.c-carousel-btn {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: transparent;
+	width: 15px;
+	height: 100%;
+	color: white;
+	border: none;
+	font-size: 22px;
+	padding: 10px 0;
+	cursor: pointer;
+	z-index: 10;
+}
+
+/* .c-carousel-btn:hover {
+	background-color: inherit;
+} */
+
+/* .c-prev { left: -20px; } */
+.c-next { right: 0; }
+
+/* .c-carousel-btn:hover {
+	background: #333;
+} */
+
+/* Responsive */
+/* @media(max-width: 800px){
+	.c-card { min-width: 50%; }
+}
+@media(max-width: 500px){
+	.c-card { min-width: 100%; }
+} */
+
+.c-btn-show-more {
+	padding: 10px 30px;
+}
+
+
+/* Ingredients */
+.c-ingredient-img {
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+	.c-ingredient-img {
+		width: 70%;
+	}
+}
+
+
+/* Experience */
+.c-frame-icon {
+	margin-bottom: 15px;
+	background: #ffffff55;
+	width: 90px;
+	height: 90px;
+	align-content: center;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 2rem;
+}
+
+/* Footer */
+.c-footer-list {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.c-footer-list a,
+.c-footer-list h5 {
+	color: #bfbfbf;
+	font-size: 1rem !important;
+}
+
+.c-footer-list a:hover {
+	color: white;
+}
+
+.c-footer-list a i {
+	margin-right: 5px;
+}
+
+.c-copyright {
+	border-top: 1px solid #2d2d2d;
+}
+
+.c-copyright h5 {
+	font-size: 1rem !important;
+}

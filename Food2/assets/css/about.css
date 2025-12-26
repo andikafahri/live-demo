@@ -1,0 +1,69 @@
+.a-bg {
+/* 	background-color: #5c5c5c; */
+background-color: #2b2b2b;
+}
+
+.a-row {
+	align-items: center;
+}
+
+.a-desc {
+	font-family: "Zain", sans-serif;
+	font-weight: 300;
+	font-size: 1.1rem;
+	line-height: 1.7rem;
+}
+
+.a-gallery {
+	display: flex;
+	gap: 15px;
+	padding: 0 25px;
+}
+
+.a-gallery-col {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.a-gallery-item {
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.a-gallery-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.a-h10 {
+	height: 10%;
+}
+
+.a-h20 {
+	height: 20%;
+}
+
+.a-h30 {
+	height: 30%;
+}
+
+.a-h40 {
+	height: 40%;
+}
+
+.a-h50 {
+	height: 50%;
+}
+
+.a-flex {
+	flex: 1;
+}
+
+@media (max-width: 800px) {
+	.a-gallery {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,52 @@
+.ct-bg {
+	background-color: #f8b83d;
+}
+
+.ct-container {
+	width: 85%;
+	margin: 70px auto;
+	padding: 25px;
+	display: flex;
+	gap: 25px;
+	color: white;
+}
+
+.ct-item {
+	flex: 1;
+}
+
+.ct-frame-icon {
+	border-radius: 50%;
+	background: #ffffff55;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	align-content: center;
+	font-size: 2.3rem;
+}
+
+.ct-title {
+	font-family: "Zain", sans-serif;
+	font-weight: 900;
+	color: white;
+	font-size: 1.3rem;
+	margin-top: 15px;
+}
+
+.ct-info {
+	font-family: "Zain", sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 1.15rem;
+}
+
+@media(max-width: 800px){
+	.ct-container {
+		flex-direction: column;
+	}
+
+	.ct-item {
+		justify-items: center;
+		text-align: center;
+	}
+}
