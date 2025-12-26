@@ -1,4 +1,4 @@
-fetch('partials/header.html').then(res => res.text()).then(html => {
+fetch('./partials/header.html').then(res => res.text()).then(html => {
 	document.getElementById('header').innerHTML = html
 
 	const page = window.location.pathname.split('/').pop().replace('.html', '')
@@ -10,10 +10,10 @@ fetch('partials/header.html').then(res => res.text()).then(html => {
 	})
 })
 
-fetch('partials/footer.html').then(res => res.text()).then(html => {
+fetch('./partials/footer.html').then(res => res.text()).then(html => {
 	document.getElementById('footer').innerHTML = html
 })
 
-fetch('partials/back-to-top.html').then(res => res.text()).then(html => {
+fetch('./partials/back-to-top.html').then(res => res.text()).then(html => {
 	document.getElementById('backToTop').innerHTML = html
 })
