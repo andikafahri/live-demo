@@ -1,4 +1,4 @@
-fetch('components/header.html').then(res => res.text()).then(html => {
+fetch('Food2/components/header.html').then(res => res.text()).then(html => {
 	document.getElementById('header').innerHTML = html
 
 	// Button Menu
@@ -33,6 +33,6 @@ fetch('components/header.html').then(res => res.text()).then(html => {
 	// })
 })
 
-fetch('components/footer.html').then(res => res.text()).then(html => {
+fetch('Food2/components/footer.html').then(res => res.text()).then(html => {
 	document.getElementById('footer').innerHTML = html
 })
